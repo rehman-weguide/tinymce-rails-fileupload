@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.license       = "MIT"
 
-  spec.add_runtime_dependency     "railties",      ">= 4.0", "< 5"
-  spec.add_runtime_dependency     "tinymce-rails", "~> 4.0"
-  spec.add_development_dependency "bundler",       "~> 1.6"
+  spec.add_runtime_dependency     "railties",      ">= 4.0"
+  spec.add_runtime_dependency     "tinymce-rails", ">= 4.0"
+  spec.add_development_dependency "bundler",       ">= 1.6"
   spec.add_development_dependency "rails",         ">= 4.0"
 end
