@@ -5,7 +5,6 @@
     function showDialog() {
       win = editor.windowManager.open({
         title: 'Insert a file from your computer',
-        size: 'normal',
         body: {
           type: 'panel',
           items: [
@@ -39,7 +38,7 @@
         target: iframe.name,
         method: "POST",
         enctype: 'multipart/form-data',
-        accept_charset: "UTF-8",
+        acceptCharset: "UTF-8",
       });
 
       iframe.getEl().name = iframe.name;
